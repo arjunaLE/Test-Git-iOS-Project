@@ -21,6 +21,7 @@
 		8B9893DE19D9AC3F00727FA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9893C019D9AC3F00727FA2 /* UIKit.framework */; };
 		8B9893E619D9AC3F00727FA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B9893E419D9AC3F00727FA2 /* InfoPlist.strings */; };
 		8B9893E819D9AC3F00727FA2 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9893E719D9AC3F00727FA2 /* Git_TestTests.m */; };
+		8B9893F319D9B5A600727FA2 /* DNSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9893F219D9B5A600727FA2 /* DNSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8B9893E319D9AC3F00727FA2 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		8B9893E519D9AC3F00727FA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B9893E719D9AC3F00727FA2 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		8B9893F119D9B5A600727FA2 /* DNSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNSTest.h; sourceTree = "<group>"; };
+		8B9893F219D9B5A600727FA2 /* DNSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		8B9893B019D9AC3F00727FA2 = {
 			isa = PBXGroup;
 			children = (
+				8B9893F119D9B5A600727FA2 /* DNSTest.h */,
+				8B9893F219D9B5A600727FA2 /* DNSTest.m */,
 				8B9893C219D9AC3F00727FA2 /* Git Test */,
 				8B9893E119D9AC3F00727FA2 /* Git TestTests */,
 				8B9893BB19D9AC3F00727FA2 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B9893D319D9AC3F00727FA2 /* DNSViewController.m in Sources */,
+				8B9893F319D9B5A600727FA2 /* DNSTest.m in Sources */,
 				8B9893CD19D9AC3F00727FA2 /* DNSAppDelegate.m in Sources */,
 				8B9893C919D9AC3F00727FA2 /* main.m in Sources */,
 			);
